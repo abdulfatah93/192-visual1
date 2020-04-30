@@ -24,7 +24,6 @@ type
     procedure btnResetClick(Sender: TObject);
     procedure btnsimpanClick(Sender: TObject);
     procedure buttonClick(Sender: TObject);
-    procedure formshow(Sender: TObject);
   private
 
   public
@@ -72,20 +71,11 @@ begin
   rgjeniskelamin.itemIndex:=-1;
   cbkota.itemIndex:=1;
   cbkota.text:='';
-  cbxFoto.checked:=false;
-  cbxKTP.checked:=false;
-  cbxijazah.checked:=false;
 end;
 
 procedure TForm1.buttonClick(Sender: TObject);
 begin
 
-end;
-
-procedure TForm1.formshow(Sender: TObject);
-begin
-  //btnreset.Click;
-  btnresetclick(sender);
 end;
 
 end.

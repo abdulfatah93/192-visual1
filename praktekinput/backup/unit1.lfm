@@ -7,7 +7,6 @@ object Form1: TForm1
   ClientHeight = 509
   ClientWidth = 490
   OnClick = buttonClick
-  OnShow = formshow
   LCLVersion = '2.0.6.0'
   object Edit1: TEdit
     Left = 24
